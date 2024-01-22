@@ -24,6 +24,16 @@ body {
 
 
 /* ======================Navbar================== */
+.nav-link{
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 2.5px;
+    border-bottom: 2.5px solid white;
+}
+
+.nav-link:hover{
+    border-bottom: 2.5px solid black;
+}
 
 .dropdown-menu {
     display: none;
@@ -42,7 +52,7 @@ body {
 }
 
 .dropdown-menu li:hover {
-    background-color: #574CFA;
+    background-color: black;
     color: white;
 }
 
